@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   text-transform: capitalize;
+   background-image: url('do.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.head{
+
+    margin-top: 2px;
+    font-family: 'Arvo', serif;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 3px 0 #DA0463;
+}
+.icon{
+    background-color: #DA0463;
+}
+.container{
+   height: 550px;
+   width: 330px;
+   background-color:#ffcc5c;
+   box-sizing: border-box;
+   padding: 10pxis;
+    overflow-y: auto;
+}
+#input{
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 40px;
+    width: 100%;
+    font-family: 'Arvo', serif;
+    font-size: 1rem;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    text-transform: capitalize;
+    border-radius: 10px;
+    padding:0 10px;
+    margin: 15px 0; 
+}
+ul li{
+    list-style: none;
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0;
+    margin-left: 3px;
+    text-transform: capitalize;
+    background-color: greenyellow;
+}
+#img{
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+#img1{
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+    cursor: pointer;
+}
+.line{
+    text-decoration: line-through;
+    background-color: green;
+}
